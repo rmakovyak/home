@@ -24,8 +24,9 @@
   }
 }
 
-.RegistrationForm__group--align-right {
-  align-items: flex-end;
+.RegistrationForm__control {
+  justify-content: flex-end;
+  display: flex;
 }
 
 .RegistrationForm__group input[type='text'] {
@@ -76,4 +77,9 @@
 
 .RegistrationForm button:hover {
   background-color: #475161;
+}
+
+.RegistrationForm__error {
+  color: #bd2d2f;
+  height: 18px;
 }
