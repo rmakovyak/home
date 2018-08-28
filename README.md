@@ -26,18 +26,18 @@ To run tests:
 npm run test
 ```
 
-For e2e i am using Cypress
-To run e2e tests.
+For integrations tests I am using Cypress
+To run integrations tests.
 
 ```
-npm run e2e
+npm run cypress
 ```
 
 Note: you will need to have app running in dev mod on localhost:3000 for cypress to pick it up
 
 ### And coding style tests
 
-I am using default create react linter here.
+I am using default create react app linter here.
 
 ## Built With
 
@@ -54,3 +54,4 @@ I have not used any UI framework or any other libs as I don't see much need in t
 - Due to it's simplicity application has only mobile and desktop version
 - Styles are written in rather direct approach and can be further improved
 - Registration form can be split in more components to keep it maitanable
+- Test are covering happy path only
