@@ -1,9 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import RegistrationForm from "./RegistrationForm";
+import React from 'react';
+import { configure, shallow, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+import RegistrationForm from './RegistrationForm';
 
-it("renders without crashing", () => {
-  const div = document.createElement("div");
-  ReactDOM.render(<RegistrationForm />, div);
-  ReactDOM.unmountComponentAtNode(div);
+configure({ adapter: new Adapter() });
+
+test('render a RegistrationForm', () => {
+  const wrapper = shallow(<RegistrationForm />);
+  expect(wrapper).toMatchSnapshot();
 });
