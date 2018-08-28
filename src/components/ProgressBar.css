@@ -18,18 +18,18 @@
   width: 1%;
 }
 
-.ProgressBar__fill--25 {
+.ProgressBar__fill--1 {
   width: 25%;
 }
 
-.ProgressBar__fill--50 {
+.ProgressBar__fill--2 {
   width: 50%;
 }
 
-.ProgressBar__fill--75 {
+.ProgressBar__fill--3 {
   width: 75%;
 }
 
-.ProgressBar__fill--100 {
+.ProgressBar__fill--4 {
   width: 100%;
 }

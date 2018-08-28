@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import styles from "./ProgressBar.css";
+import styles from './ProgressBar.css';
 
 function ProgressBar({ level }) {
   return (
@@ -12,7 +12,7 @@ function ProgressBar({ level }) {
 }
 
 ProgressBar.propTypes = {
-  level: PropTypes.oneOf([0, 25, 50, 75, 100])
+  level: PropTypes.oneOf([0, 1, 2, 3, 4])
 };
 
 ProgressBar.defaultProps = {
