@@ -147,19 +147,21 @@ class RegistrationForm extends Component {
             <p>You have successfully registered!</p>
             <div className="RegistrationForm__group">
               <label>Full name</label>
-              <span>{this.state.name}</span>
+              <span className="user-name">{this.state.name}</span>
             </div>
             <div className="RegistrationForm__group">
               <label>Email</label>
-              <span>{this.state.email}</span>
+              <span className="user-email">{this.state.email}</span>
             </div>
             <div className="RegistrationForm__group">
               <label>Phone</label>
-              <span>{this.state.phone}</span>
+              <span className="user-phone">{this.state.phone}</span>
             </div>
             <div className="RegistrationForm__group">
               <label>Salary</label>
-              <span>{this.salaries[this.state.salary]}</span>
+              <span className="user-salary">
+                {this.salaries[this.state.salary]}
+              </span>
             </div>
           </div>
         )}

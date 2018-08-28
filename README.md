@@ -26,6 +26,15 @@ To run tests:
 npm run test
 ```
 
+For e2e i am using Cypress
+To run e2e tests.
+
+```
+npm run e2e
+```
+
+Note: you will need to have app running in dev mod on localhost:3000 for cypress to pick it up
+
 ### And coding style tests
 
 I am using default create react linter here.
@@ -34,6 +43,8 @@ I am using default create react linter here.
 
 - [CRA](https://github.com/facebook/create-react-app)
 - [Validate.js](https://validatejs.org/)
+- [Enzyme](https://airbnb.io/enzyme/)
+- [Cypress](https://docs.cypress.io/)
 
 I have not used any UI framework or any other libs as I don't see much need in them for this task.
 
