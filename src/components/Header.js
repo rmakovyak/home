@@ -5,7 +5,9 @@ import styles from './Header.css';
 function Header() {
   return (
     <header className="Header">
-      <img src={logo} className="Header__logo" />
+      <a href="/">
+        <img src={logo} className="Header__logo" />
+      </a>
       <h2 className="Header__heading">Tenant registration</h2>
     </header>
   );
